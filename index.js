@@ -16,14 +16,14 @@
 var name = ("Marcus Madden");
 console.log(isName + " " + name);
 
- // var userBalance = parseInt(prompt("What is your balance?"));
- // var newBalance = userBalance - 10;
- // console.log("You lost $10. Your new balance is: " + newBalance);
+ var userBalance = parseInt(prompt("What is your balance?"));
+ var newBalance = userBalance - 10;
+ console.log("You lost $10. Your new balance is: " + newBalance);
 
-// var userGrade = parseInt(prompt("Enter your number grade"));
-//  var userCredit = parseInt(prompt("Enter extra credit"));
-//  console.log(" The grade plus extra credit is: " + (userCredit + userGrade));
+var userGrade = parseInt(prompt("Enter your number grade"));
+ var userCredit = parseInt(prompt("Enter extra credit"));
+ console.log(" The grade plus extra credit is: " + (userCredit + userGrade));
 
-// var balance = parseInt(prompt("What is your balance?"));
-// var deduction = parseInt(prompt("How much do you want to deduct"));
-// console.log("The remaining balance after subtracting the deduction is: " + (balance - deduction));
+var balance = parseInt(prompt("What is your balance?"));
+var deduction = parseInt(prompt("How much do you want to deduct"));
+console.log("The remaining balance after subtracting the deduction is: " + (balance - deduction));
